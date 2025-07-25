@@ -3,12 +3,12 @@
 
 ---
 
-## ✨ Project Goal
+## Project Goal
 1. **Combine** raw CSV logs from multiple fights.  
 2. **Clean & enrich** the data (distance features, health normalization, one-hot character IDs).  
 3. **Train** a multilayer perceptron (MLP) that maps a flattened game-state snapshot → the 10 possible buttons Player 1 can press.  
 4. **Export** the scaler, feature list, and `.pth` weights so the bot can run inside the BizHawk / PythonAPI loop.  
-5. *(Upcoming)* **Mirror** data so the model can fight as *Player 2* without retraining.
+5. *(Yet to be implemented)* Mirror data so the model can fight as *Player 2* without retraining.
 
 ---
 
@@ -30,7 +30,7 @@
 └── README.md               # Project documentation
 ```
 
-## 🎮 How It Works
+## How It Works
 
 The project creates an AI agent for Super Street Fighter II Turbo through a behavior cloning approach:
 
@@ -62,7 +62,7 @@ The project creates an AI agent for Super Street Fighter II Turbo through a beha
    - Feature scaler for normalizing new inputs
    - List of feature names for inference
 
-## 🚀 Usage
+## Usage
 
 ### Prerequisites
 - Python 3.7+
@@ -116,22 +116,4 @@ def get_action(game_state):
     
     return binary_actions
 ```
-
-## 📊 Performance
-
-The model achieves approximately:
-- Training accuracy: ~90-92%
-- Validation accuracy: ~85-87%
-
-This is expected behavior for a behavior cloning approach, as the model learns to mimic the recorded gameplay rather than optimizing win rate directly.
-
-## 🔮 Future Improvements
-
-1. **Data Mirroring**: Implement mirroring of training data so the model can play as Player 2 without retraining
-2. **Hyperparameter Tuning**: Experiment with different network architectures and learning rates
-3. **Frame Context**: Include previous N frames as input to better capture action sequences
-4. **Reinforcement Learning**: Implement RL fine-tuning to optimize for win rate after initial behavior cloning
-5. **Character-Specific Models**: Train specialized models for each character matchup
-
-## 📝 License
 
