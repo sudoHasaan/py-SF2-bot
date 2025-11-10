@@ -8,7 +8,7 @@
 This project was jointly developed by:
 - [@ammonia2](https://github.com/ammonia2)
 - [@sudoHasaan](https://github.com/sudoHasaan)
-- [@Talha24Akram](https://github.com/Talha24Akram)
+- [@ShahmeerHyat](https://github.com/ShahmeerHyat)
 
 > The main repository is hosted on [ammonia2’s GitHub](https://github.com/ammonia2/py-SF2-bot).
 
