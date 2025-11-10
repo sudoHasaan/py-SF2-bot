@@ -3,6 +3,15 @@
 
 ---
 
+## Contributors
+
+This project was jointly developed by:
+- [@ammonia2](https://github.com/ammonia2)
+- [@sudoHasaan](https://github.com/sudoHasaan)
+- [@Talha24Akram](https://github.com/Talha24Akram)
+
+> The main repository is hosted on [ammonia2’s GitHub](https://github.com/ammonia2/cpp-trafficSim).
+
 ## Project Goal
 1. **Combine** raw CSV logs from multiple fights.  
 2. **Clean & enrich** the data (distance features, health normalization, one-hot character IDs).  
