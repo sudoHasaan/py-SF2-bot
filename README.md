@@ -10,7 +10,7 @@ This project was jointly developed by:
 - [@sudoHasaan](https://github.com/sudoHasaan)
 - [@Talha24Akram](https://github.com/Talha24Akram)
 
-> The main repository is hosted on [ammonia2’s GitHub](https://github.com/ammonia2/cpp-trafficSim).
+> The main repository is hosted on [ammonia2’s GitHub](https://github.com/ammonia2/py-SF2-bot).
 
 ## Project Goal
 1. **Combine** raw CSV logs from multiple fights.  
